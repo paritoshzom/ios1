@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C59E47B922D7021000E7AC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59E47B822D7021000E7AC95 /* AppDelegate.swift */; };
+		C59E47BB22D7021000E7AC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59E47BA22D7021000E7AC95 /* ViewController.swift */; };
+		C59E47BE22D7021000E7AC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59E47BC22D7021000E7AC95 /* Main.storyboard */; };
+		C59E47C022D7021400E7AC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59E47BF22D7021400E7AC95 /* Assets.xcassets */; };
+		C59E47C322D7021400E7AC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59E47C122D7021400E7AC95 /* LaunchScreen.storyboard */; };
+		C59E47CE22D7021400E7AC95 /* MYZOMATOAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59E47CD22D7021400E7AC95 /* MYZOMATOAPPTests.swift */; };
+		C59E47D922D7021400E7AC95 /* MYZOMATOAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59E47D822D7021400E7AC95 /* MYZOMATOAPPUITests.swift */; };
+		C59E47E922D7136600E7AC95 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59E47E822D7136600E7AC95 /* UIView+Layout.swift */; };
+		C59E47EB22D7261800E7AC95 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59E47EA22D7261800E7AC95 /* MyTableViewCell.swift */; };
+		C59E47EF22D73A4000E7AC95 /* RestrauntModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59E47EE22D73A4000E7AC95 /* RestrauntModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C59E47CA22D7021400E7AC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59E47AD22D7021000E7AC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59E47B422D7021000E7AC95;
+			remoteInfo = MYZOMATOAPP;
+		};
+		C59E47D522D7021400E7AC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59E47AD22D7021000E7AC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59E47B422D7021000E7AC95;
+			remoteInfo = MYZOMATOAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C59E47B522D7021000E7AC95 /* MYZOMATOAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYZOMATOAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59E47B822D7021000E7AC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C59E47BA22D7021000E7AC95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C59E47BD22D7021000E7AC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C59E47BF22D7021400E7AC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C59E47C222D7021400E7AC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C59E47C422D7021400E7AC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59E47C922D7021400E7AC95 /* MYZOMATOAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYZOMATOAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59E47CD22D7021400E7AC95 /* MYZOMATOAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZOMATOAPPTests.swift; sourceTree = "<group>"; };
+		C59E47CF22D7021400E7AC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59E47D422D7021400E7AC95 /* MYZOMATOAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYZOMATOAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59E47D822D7021400E7AC95 /* MYZOMATOAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYZOMATOAPPUITests.swift; sourceTree = "<group>"; };
+		C59E47DA22D7021400E7AC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59E47E822D7136600E7AC95 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "../../../Documents/UIView+Layout.swift"; sourceTree = "<group>"; };
+		C59E47EA22D7261800E7AC95 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		C59E47EE22D73A4000E7AC95 /* RestrauntModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59E47B222D7021000E7AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59E47C622D7021400E7AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59E47D122D7021400E7AC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C59E47AC22D7021000E7AC95 = {
+			isa = PBXGroup;
+			children = (
+				C59E47B722D7021000E7AC95 /* MYZOMATOAPP */,
+				C59E47CC22D7021400E7AC95 /* MYZOMATOAPPTests */,
+				C59E47D722D7021400E7AC95 /* MYZOMATOAPPUITests */,
+				C59E47B622D7021000E7AC95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59E47B622D7021000E7AC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59E47B522D7021000E7AC95 /* MYZOMATOAPP.app */,
+				C59E47C922D7021400E7AC95 /* MYZOMATOAPPTests.xctest */,
+				C59E47D422D7021400E7AC95 /* MYZOMATOAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59E47B722D7021000E7AC95 /* MYZOMATOAPP */ = {
+			isa = PBXGroup;
+			children = (
+				C59E47EE22D73A4000E7AC95 /* RestrauntModel.swift */,
+				C59E47B822D7021000E7AC95 /* AppDelegate.swift */,
+				C59E47BA22D7021000E7AC95 /* ViewController.swift */,
+				C59E47BC22D7021000E7AC95 /* Main.storyboard */,
+				C59E47E822D7136600E7AC95 /* UIView+Layout.swift */,
+				C59E47BF22D7021400E7AC95 /* Assets.xcassets */,
+				C59E47C122D7021400E7AC95 /* LaunchScreen.storyboard */,
+				C59E47C422D7021400E7AC95 /* Info.plist */,
+				C59E47EA22D7261800E7AC95 /* MyTableViewCell.swift */,
+			);
+			path = MYZOMATOAPP;
+			sourceTree = "<group>";
+		};
+		C59E47CC22D7021400E7AC95 /* MYZOMATOAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C59E47CD22D7021400E7AC95 /* MYZOMATOAPPTests.swift */,
+				C59E47CF22D7021400E7AC95 /* Info.plist */,
+			);
+			path = MYZOMATOAPPTests;
+			sourceTree = "<group>";
+		};
+		C59E47D722D7021400E7AC95 /* MYZOMATOAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C59E47D822D7021400E7AC95 /* MYZOMATOAPPUITests.swift */,
+				C59E47DA22D7021400E7AC95 /* Info.plist */,
+			);
+			path = MYZOMATOAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59E47B422D7021000E7AC95 /* MYZOMATOAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59E47DD22D7021400E7AC95 /* Build configuration list for PBXNativeTarget "MYZOMATOAPP" */;
+			buildPhases = (
+				C59E47B122D7021000E7AC95 /* Sources */,
+				C59E47B222D7021000E7AC95 /* Frameworks */,
+				C59E47B322D7021000E7AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYZOMATOAPP;
+			productName = MYZOMATOAPP;
+			productReference = C59E47B522D7021000E7AC95 /* MYZOMATOAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C59E47C822D7021400E7AC95 /* MYZOMATOAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59E47E022D7021400E7AC95 /* Build configuration list for PBXNativeTarget "MYZOMATOAPPTests" */;
+			buildPhases = (
+				C59E47C522D7021400E7AC95 /* Sources */,
+				C59E47C622D7021400E7AC95 /* Frameworks */,
+				C59E47C722D7021400E7AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59E47CB22D7021400E7AC95 /* PBXTargetDependency */,
+			);
+			name = MYZOMATOAPPTests;
+			productName = MYZOMATOAPPTests;
+			productReference = C59E47C922D7021400E7AC95 /* MYZOMATOAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C59E47D322D7021400E7AC95 /* MYZOMATOAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59E47E322D7021400E7AC95 /* Build configuration list for PBXNativeTarget "MYZOMATOAPPUITests" */;
+			buildPhases = (
+				C59E47D022D7021400E7AC95 /* Sources */,
+				C59E47D122D7021400E7AC95 /* Frameworks */,
+				C59E47D222D7021400E7AC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59E47D622D7021400E7AC95 /* PBXTargetDependency */,
+			);
+			name = MYZOMATOAPPUITests;
+			productName = MYZOMATOAPPUITests;
+			productReference = C59E47D422D7021400E7AC95 /* MYZOMATOAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59E47AD22D7021000E7AC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Paritosh;
+				TargetAttributes = {
+					C59E47B422D7021000E7AC95 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C59E47C822D7021400E7AC95 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C59E47B422D7021000E7AC95;
+					};
+					C59E47D322D7021400E7AC95 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C59E47B422D7021000E7AC95;
+					};
+				};
+			};
+			buildConfigurationList = C59E47B022D7021000E7AC95 /* Build configuration list for PBXProject "MYZOMATOAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C59E47AC22D7021000E7AC95;
+			productRefGroup = C59E47B622D7021000E7AC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59E47B422D7021000E7AC95 /* MYZOMATOAPP */,
+				C59E47C822D7021400E7AC95 /* MYZOMATOAPPTests */,
+				C59E47D322D7021400E7AC95 /* MYZOMATOAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59E47B322D7021000E7AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59E47C322D7021400E7AC95 /* LaunchScreen.storyboard in Resources */,
+				C59E47C022D7021400E7AC95 /* Assets.xcassets in Resources */,
+				C59E47BE22D7021000E7AC95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59E47C722D7021400E7AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59E47D222D7021400E7AC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59E47B122D7021000E7AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59E47BB22D7021000E7AC95 /* ViewController.swift in Sources */,
+				C59E47EB22D7261800E7AC95 /* MyTableViewCell.swift in Sources */,
+				C59E47EF22D73A4000E7AC95 /* RestrauntModel.swift in Sources */,
+				C59E47B922D7021000E7AC95 /* AppDelegate.swift in Sources */,
+				C59E47E922D7136600E7AC95 /* UIView+Layout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59E47C522D7021400E7AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59E47CE22D7021400E7AC95 /* MYZOMATOAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59E47D022D7021400E7AC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59E47D922D7021400E7AC95 /* MYZOMATOAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C59E47CB22D7021400E7AC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C59E47B422D7021000E7AC95 /* MYZOMATOAPP */;
+			targetProxy = C59E47CA22D7021400E7AC95 /* PBXContainerItemProxy */;
+		};
+		C59E47D622D7021400E7AC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C59E47B422D7021000E7AC95 /* MYZOMATOAPP */;
+			targetProxy = C59E47D522D7021400E7AC95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C59E47BC22D7021000E7AC95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59E47BD22D7021000E7AC95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C59E47C122D7021400E7AC95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59E47C222D7021400E7AC95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C59E47DB22D7021400E7AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C59E47DC22D7021400E7AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C59E47DE22D7021400E7AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A23UZAMFMZ;
+				INFOPLIST_FILE = MYZOMATOAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kuchbhidaaldo.MYZOMATOAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C59E47DF22D7021400E7AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A23UZAMFMZ;
+				INFOPLIST_FILE = MYZOMATOAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kuchbhidaaldo.MYZOMATOAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C59E47E122D7021400E7AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A23UZAMFMZ;
+				INFOPLIST_FILE = MYZOMATOAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kuchbhidaaldo.MYZOMATOAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYZOMATOAPP.app/MYZOMATOAPP";
+			};
+			name = Debug;
+		};
+		C59E47E222D7021400E7AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A23UZAMFMZ;
+				INFOPLIST_FILE = MYZOMATOAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kuchbhidaaldo.MYZOMATOAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYZOMATOAPP.app/MYZOMATOAPP";
+			};
+			name = Release;
+		};
+		C59E47E422D7021400E7AC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A23UZAMFMZ;
+				INFOPLIST_FILE = MYZOMATOAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kuchbhidaaldo.MYZOMATOAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MYZOMATOAPP;
+			};
+			name = Debug;
+		};
+		C59E47E522D7021400E7AC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A23UZAMFMZ;
+				INFOPLIST_FILE = MYZOMATOAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kuchbhidaaldo.MYZOMATOAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MYZOMATOAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59E47B022D7021000E7AC95 /* Build configuration list for PBXProject "MYZOMATOAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59E47DB22D7021400E7AC95 /* Debug */,
+				C59E47DC22D7021400E7AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59E47DD22D7021400E7AC95 /* Build configuration list for PBXNativeTarget "MYZOMATOAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59E47DE22D7021400E7AC95 /* Debug */,
+				C59E47DF22D7021400E7AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59E47E022D7021400E7AC95 /* Build configuration list for PBXNativeTarget "MYZOMATOAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59E47E122D7021400E7AC95 /* Debug */,
+				C59E47E222D7021400E7AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59E47E322D7021400E7AC95 /* Build configuration list for PBXNativeTarget "MYZOMATOAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59E47E422D7021400E7AC95 /* Debug */,
+				C59E47E522D7021400E7AC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C59E47AD22D7021000E7AC95 /* Project object */;
+}
