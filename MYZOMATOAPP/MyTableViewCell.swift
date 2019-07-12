@@ -10,6 +10,7 @@ import UIKit
 
 class MyTableViewCell: UITableViewCell {
     
+    let URL_IMAGE = URL(string: "https://images-na.ssl-images-amazon.com/images/I/61NwVvpV33L.png")
     let titleLabel = UILabel()
     let subtitleLabel = UILabel()
     let mainImageView = UIImageView()
@@ -42,10 +43,44 @@ class MyTableViewCell: UITableViewCell {
         subtitleLabel.set(.sameLeadingTrailing(titleLabel),
                           .below(titleLabel,5))
         
+        
+        let getImageFromUrl = URLSession.shared.dataTask(with: URL_IMAGE!) { (data, response, error) in
+            
+            //if there is any error
+            if let e = error {
+                //displaying the message
+                print("Error Occurred: \(e)")
+                
+            } else {
+                //in case of now error, checking wheather the response is nil or not
+                if (response as? HTTPURLResponse) != nil {
+                    
+                    //checking if the response contains an image
+                    if let imageData = data {
+                        
+                        //getting the image
+                        let image = UIImage(data: imageData)
+                        
+                        //displaying the image
+                        self.mainImageView.image = image
+                        
+                    } else {
+                        print("Image file is currupted")
+                    }
+                } else {
+                    print("No response from server")
+                }
+            }
+        }
+        
+        //starting the download task
+        getImageFromUrl.resume()
+        
+        
     }
     
     public func setData(user: User){
-        mainImageView.backgroundColor = .red
+        mainImageView.backgroundColor = .none
         titleLabel.text = user.name
         subtitleLabel.text = user.email
     }

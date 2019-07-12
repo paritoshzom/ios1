@@ -19,6 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let users = Users()
         users.getData(
             urlString: "https://jsonplaceholder.typicode.com/users"
+            
         ) { (users) in
             self.arrayOfUsers = users
             DispatchQueue.main.async {

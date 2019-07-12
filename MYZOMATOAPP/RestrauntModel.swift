@@ -35,19 +35,19 @@ struct User {
 
 
 class Users: NSObject {
-//    let name: String?
-//    let email: String?
-//    let info: String
+    //    let name: String?
+    //    let email: String?
+    //    let info: String
     
-//    init(name: String, image: String, info: String) {
-//        self.name=name
-//        self.image=image
-//        self.info=info
-//    }
-//
-//    init() {
-//        self.init(name: "Hello", image: "", info: "info")
-//    }
+    //    init(name: String, image: String, info: String) {
+    //        self.name=name
+    //        self.image=image
+    //        self.info=info
+    //    }
+    //
+    //    init() {
+    //        self.init(name: "Hello", image: "", info: "info")
+    //    }
     
     override init() {
         super.init()
@@ -66,11 +66,11 @@ class Users: NSObject {
                     users.append(user.getUserFromObject(object: object)) //user.getUserFromObject(object: object)
                 }
                 completionHandler(users)
-//                print(jsonData)
+                //                print(jsonData)
                 
                 //print(String(data: data, encoding: .utf8)!)
-        }
-        dataTask.resume()
+            }
+            dataTask.resume()
         }
     }
     
